@@ -21,7 +21,7 @@ class categoryViewController: UIViewController, UITableViewDelegate, UITableView
         loadCategory()
     }
     
-    //MARK: TableView Datasource Methods
+    //MARK: TableView Datasource Methods 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categories.count
     }
